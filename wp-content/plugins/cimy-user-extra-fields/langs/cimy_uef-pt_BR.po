@@ -1,0 +1,822 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cimy User Extra Fields\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-07 15:59-0800\n"
+"PO-Revision-Date: Wed Jul 06 2016 11:11:31 GMT-0300 (BRT)\n"
+"Last-Translator: Fineduca <admin@admin.com>\n"
+"Language-Team: Diana K. Cury <dianakac@gmail.com>\n"
+"Language: Portuguese (Brazil)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: /var/www/wp-content/plugins/cimy-user-extra-fields\n"
+"X-Loco-Target-Locale: pt_BR"
+
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr "%1$s <span class=\"count\">(%2$s)</span>"
+
+msgid "%s: %s"
+msgstr "%s: %s"
+
+msgid ""
+"<strong>Note:</strong> this website let you personalize your password; after "
+"the registration you will receive an e-mail with another password, do not "
+"care about that!"
+msgstr ""
+"<strong>Nota:</strong> este site permite personalizar sua senha. Depois do "
+"registro, você receberá um e-mail com outra senha!"
+
+msgid ""
+"<strong>WARNING: to activate this captcha download <a href=\"http://www."
+"phpcaptcha.org/latest.zip\" target=\"_blank\">this package</a> and unpack it "
+"under %s</strong>"
+msgstr ""
+"<strong>ATENÇÃO: para ativar este captcha, faça download da extensção<a "
+"href=\"http://www.phpcaptcha.org/latest.zip\" target=\"_blank\">PHP Captcha</a> "
+"e extraia em %s</strong>"
+
+msgid ""
+"<strong>note:</strong> if you change order or remove fieldsets you may need "
+"to set all extra fields' fieldset assigment again"
+msgstr ""
+"<strong>Nota:</strong> ao mudar a ordem ou remover qualquer campo adicional, "
+"é preciso definir onde os campos aparecem novamente"
+
+msgid ""
+"<strong>note:</strong> this option turned on will automatically disable "
+"(only during the registration) all upload fields: file, picture, avatar"
+msgstr ""
+"<strong>Nota:</strong> se ativar esta opção, todas os itens de envio de "
+"arquivos serão destaivados como envio de arquivos, avatar etc."
+
+msgid "AIM"
+msgstr "AIM"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Add a new Field"
+msgstr "Adicionar Novo Campo"
+
+msgid "Add field"
+msgstr "Adicionar Campo"
+
+msgid "An error occurred during the activation"
+msgstr "Um erro ocorreu durante a ativação"
+
+msgid "Anonymous"
+msgstr "Anônimo"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "Are you sure you want to delete field(s) and all data inserted into by users?"
+msgstr ""
+"Tem certeza que quer excluir os campos e todos os dados informados pelos "
+"usuários?"
+
+msgid "Authors &amp; Users Extended"
+msgstr "Autores & Usuários Extendidos"
+
+msgid "Biographical Info"
+msgstr "Biografias"
+
+msgid "Can be empty"
+msgstr "Pode ser vazio"
+
+msgid "Can be modified"
+msgstr "Pode ser modificado"
+
+msgid "Can be modified only by admin"
+msgstr "Pode ser modificado apenas por Admin"
+
+msgid "Can be modified only by admin or if empty"
+msgstr "Pode ser modificado por Admin ou se vazio"
+
+msgid "Can be modified only if empty"
+msgstr "Pode ser modificado se vazio"
+
+msgid "Cannot be modified"
+msgstr "Não pode ser modificado"
+
+msgid "Case sensitive"
+msgstr "Diferenciar maiúsc./minúsc."
+
+msgid "Change image"
+msgstr "Mudar imagem"
+
+msgid "Change login/registration page logo"
+msgstr "Mudar logotipo da página de registro"
+
+msgid "Change order"
+msgstr "Mudar ordem"
+
+msgid "Check for E-mail syntax"
+msgstr "Verficar sintaxe de e-mail"
+
+msgid "Clear"
+msgstr "Limpar"
+
+msgid "Could not create user"
+msgstr "Não foi possível criar usuário"
+
+msgid "Database"
+msgstr "Banco de Dados"
+
+msgid "Default values"
+msgstr "Valores padrão"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Delete field"
+msgstr "Excluir Campo"
+
+msgid "Delete selected fields"
+msgstr "Excluir campos selecionados"
+
+msgid "Delete the file"
+msgstr "Excluir arquivo"
+
+msgid "Delete the picture"
+msgstr "Excluir figura"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+msgid "ERROR"
+msgstr "ERRO"
+
+msgid "Empty"
+msgstr "Esvaziar"
+
+msgid ""
+"Enable <a href=\"http://www.google.com/recaptcha\" "
+"target=\"_blank\">reCAPTCHA</a>"
+msgstr ""
+"Ativar <a href=\"http://www.google.com/recaptcha\" "
+"target=\"_blank\">reCAPTCHA</a>"
+
+msgid ""
+"Enable <a href=\"http://www.phpcaptcha.org/\" target=\"_blank\">Securimage "
+"Captcha</a>"
+msgstr ""
+"Ativar <a href=\"http://www.phpcaptcha.org/\" target=\"_blank\">Securimage "
+"CAPTCHA</a>"
+
+msgid "Enable email confirmation"
+msgstr "Ativar configuração de e-mail"
+
+msgid "Equal TO not specified"
+msgstr "<strong>Igual a</strong> não especificado"
+
+msgid "Exact length"
+msgstr "Caracteres Exatos"
+
+msgid "Exact or Max length"
+msgstr "Caracteres Exatos ou Máx."
+
+msgid "Exact or Max size"
+msgstr "Tamanho Máx. ou Exato"
+
+msgid "Exact size"
+msgstr "Tamanho Exato"
+
+msgid "Extra Fields"
+msgstr "Campos Adicionais"
+
+msgid "Extra Fields section title"
+msgstr "Títulos para seção de Campos Adicionais"
+
+msgid "Extra Fields table"
+msgstr "Tabela de Campos Extras"
+
+msgid "Extra Fields table deleted"
+msgstr "Tabela de Extra Fields esxcluída"
+
+msgid "Extra Fields table emptied"
+msgstr "Tabela de Extra Fields esvaziada"
+
+msgid "Field #"
+msgstr "Campo #"
+
+msgid "Field inserted correctly"
+msgstr "Campo inserido!"
+
+msgid "Field(s)"
+msgstr "Campo(s)"
+
+msgid "Fields"
+msgstr "Campos"
+
+msgid "Fieldset"
+msgstr "Área do Campo"
+
+msgid "Fieldset's titles, separates with comma"
+msgstr "Tïtulos da seções, separados por vírgulas"
+
+msgid "File '%s' doesn't exist?"
+msgstr "Arquivo '%s' não existe?"
+
+msgid "File '%s' is not an image."
+msgstr "Arquivo '%s' não é uma imagem."
+
+msgid "First name"
+msgstr "Nome"
+
+msgid "Fix the problem"
+msgstr "Corrigir problema"
+
+msgid "Force tables creation"
+msgstr "Forçar criação de tabelas"
+
+msgid "General"
+msgstr "Geral"
+
+msgid "Hide email field"
+msgstr "Esconder campo <strong>E-mail</strong>"
+
+msgid "Hide n. posts field"
+msgstr "Esconder número de postagens"
+
+msgid "Hide name field"
+msgstr "Esconder campo <strong>Nome</strong>"
+
+msgid "Hide role field"
+msgstr "Esconder campo <strong>Função</strong>"
+
+msgid "Hide username field"
+msgstr "Esconder campo <strong>Nome de Usuário</strong>"
+
+msgid "Hide website field"
+msgstr "Esconder campo <strong>Website</strong>"
+
+msgid "If you select"
+msgstr "Se você selecionar"
+
+msgid "Insert the code:"
+msgstr "Inserir o código:"
+
+msgid "Invalid activation key."
+msgstr "Chave de ativação inválida"
+
+msgid "Invert selection"
+msgstr "Inverter seleção"
+
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+msgid "Label"
+msgstr "Rótulo"
+
+msgid "Label not specified"
+msgstr "Rótulo não especificado"
+
+msgid "Last name"
+msgstr "Sobrenome"
+
+msgid "Max length"
+msgstr "Caracteres Máx."
+
+msgid "Max size"
+msgstr "Tamanho Máx."
+
+msgid "Maximum recommended logo width is 328px, but any height should work."
+msgstr "Dimensão máxima recomendada da largura é 328px"
+
+msgid "Min length"
+msgstr "Caracteres Mín."
+
+msgid "Min size"
+msgstr "Tamanho Mín."
+
+msgid "NO"
+msgstr "NÃO"
+
+msgid "NOT PRESENT"
+msgstr "NÃO PRESENTE"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Name cannot contains spaces"
+msgstr "Nome não pode conter espaços"
+
+msgid "Name inserted is just in the database, change to another one"
+msgstr "Nome inserido já está no banco de dados, escolha outro."
+
+msgid "Name not specified"
+msgstr "Nome não especificado"
+
+msgid "New user registration on your site %s:"
+msgstr "Novos usuários registrados no site %s:"
+
+msgid "Nickname"
+msgstr "Apelido"
+
+msgid "No captcha"
+msgstr "Sem CAPTCHA"
+
+msgid "None!"
+msgstr "Nenhum!"
+
+msgid "Nothing selected"
+msgstr "Nada selecionado"
+
+msgid "OPTIONS DELETED!"
+msgstr "OPÇÕES EXCLUÍDAS`"
+
+msgid "Options"
+msgstr "Opções"
+
+msgid "Options changed"
+msgstr "Opções alteradas"
+
+msgid "Options deleted"
+msgstr "Opções excluídas"
+
+msgid "Options set to default values"
+msgstr "Opções definidas para valores padrão"
+
+msgid "Order"
+msgstr "Ordem"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "Password confirmation"
+msgstr "Confirmação de senha"
+
+msgid "Password: %s"
+msgstr "Senha: %s"
+
+msgid "Picture URL:"
+msgstr "URL da figura:"
+
+msgid "Picture/Avatar upload"
+msgstr "Envio de Figura/Avatar"
+
+msgid "Please upload a file with one of the following extensions"
+msgstr "Por favor envie um arquivo com uma das seguintes extensões"
+
+msgid "Please upload an image with one of the following extensions"
+msgstr "Por favor envie uma imagem com uma das seguintes extensões"
+
+msgid "Posts"
+msgstr "Postagens"
+
+msgid "Private KEY"
+msgstr "Chave privativa (Private KEY)"
+
+msgid "Public KEY"
+msgstr "Chave pública (Public KEY)"
+
+msgid "Redirect to the source"
+msgstr "Redirecionar para a origem"
+
+msgid "Regular Expression"
+msgstr "Expressão Regular"
+
+msgid "Reset"
+msgstr "Redefinir"
+
+msgid "Role"
+msgstr "Função"
+
+msgid "Rules"
+msgstr "Regras"
+
+msgid "SUCCESSFUL"
+msgstr "CONCLUÍDO"
+
+msgid "Save Changes"
+msgstr "Salvar Mudanças"
+
+msgid "Search Users"
+msgstr "Pesquisar por Usuários"
+
+msgid "Should be equal TO"
+msgstr "Deve ser <strong>Igual a</strong>"
+
+msgid "Show AIM"
+msgstr "Mostrar AIM"
+
+msgid "Show Biographical Info"
+msgstr "Mostrar Biografia"
+
+msgid "Show Jabber / Google Talk"
+msgstr "Mostrar Jabber/ Google Talk"
+
+msgid "Show Yahoo IM"
+msgstr "Mostrar Yahoo IM"
+
+msgid "Show all fields in the welcome email"
+msgstr "Mostrar todos os campos no e-mail de boas-vindas"
+
+msgid "Show confirmation password"
+msgstr "Mostrar senha de confirmação"
+
+msgid "Show first name"
+msgstr "Mostrar Nome"
+
+msgid "Show last name"
+msgstr "Mostrar Sobrenome"
+
+msgid "Show nickname"
+msgstr "Mostrar Apelido"
+
+msgid "Show password"
+msgstr "Mostrar senha"
+
+msgid "Show password strength meter"
+msgstr "Mostrar indicador de força da senha"
+
+msgid "Show the field if the role is at least:"
+msgstr "Mostrar se usuário for ao menos:"
+
+msgid "Show the field in User's profile"
+msgstr "Mostrar no <strong>Perfil do Usuário</strong>"
+
+msgid "Show the field in the blog"
+msgstr "Mostrar no site"
+
+msgid "Show the field in the registration"
+msgstr "Mostrar na <strong>Página de Registro</strong>"
+
+msgid "Show the field in the search engine"
+msgstr "Mostrar no formulário de pesquisa"
+
+msgid "Show website"
+msgstr "Mostrar Website"
+
+msgid "Strength indicator"
+msgstr "Indicador de força"
+
+msgid "Support the Cimy Project"
+msgstr "Suporte o Projeto Cimy"
+
+msgid ""
+"That email address has already been used. Please check your inbox for an "
+"activation email. It will become available in a couple of days if you do "
+"nothing."
+msgstr ""
+"E-mail já usado. Verifique se não há um e-mail de ativação na sua caixa de "
+"entrada. Estará disponível em alguns dias se nada fizer."
+
+msgid "That username is already activated."
+msgstr "Este nome de usuário já está ativado"
+
+msgid "That username is currently reserved but may be available in a couple of days."
+msgstr "Nome de usuário reservado."
+
+msgid "The GD image library is not installed."
+msgstr "A <em>biblioteca GD image</em> não está disponível"
+
+msgid "The site is already active."
+msgstr "O site já está ativo"
+
+msgid "This captcha is probably weaker, but is easier for users"
+msgstr "Este CAPTCHA é mais fraco, porém, mais simples para usuários"
+
+msgid ""
+"This operation will create/update all missing tables/options, do you want to "
+"proceed?"
+msgstr ""
+"Esta operação vai criar/atualizar todas a opções/tabelas que faltam, "
+"continuar?"
+
+msgid ""
+"This plug-in is the results of hours of development to add new features, "
+"support new WordPress versions and fix bugs, please donate money if saved "
+"you from spending all these hours!"
+msgstr ""
+"Este plugin é o resultado de horas de desenvolvimento para adicionar novos "
+"recurso, suportar novas versões do WordPress e corrigir bugs, por favor, "
+"faça um donativo ao autor! <br /><br /><small>Tradução para pt_BR: <a "
+"href=\"http://www.arquivo.tk\" target=_blank\">Diana K. C</a></small>"
+
+msgid ""
+"To activate your user, please click the following link:\n"
+"\n"
+"%s\n"
+"\n"
+"After you activate, you will receive *another email* with your login.\n"
+"\n"
+msgstr ""
+"Para ativar seu usuários, clique nolink:\n"
+"\n"
+"%s\n"
+"\n"
+"Depois de ativar, você receberá <strong>outro e-mail</strong> com seu login.\n"
+"\n"
+
+msgid ""
+"To add a new field you have to choose a name, type and label; optional are "
+"value and description. Rules are applied during user registration."
+msgstr ""
+"Para adicionar um novo campo, você deve escolher o <strong>Tipo</strong> e o "
+"<strong>Rótulo</strong>, opcionalmente o <strong>Valor</strong> e "
+"<strong>Descrição</strong>. As <strong>Regras</strong> são aplicadas durante "
+"o registro."
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Typed code is not correct."
+msgstr "Código digitado não está correto."
+
+msgid "Update"
+msgstr "Atualizar"
+
+msgid "Update field"
+msgstr "Atualizar Campo"
+
+msgid "Update selected users"
+msgstr "Atualizar Usuários selecionados"
+
+msgid "Update the file"
+msgstr "Atualizar o arquivo"
+
+msgid "Update the picture"
+msgstr "Atualizar figura"
+
+msgid "User Profile"
+msgstr "Perfil do Usuário"
+
+msgid "Username"
+msgstr "Nome de Usuário"
+
+msgid "Username: %s"
+msgstr "Nome de usuário: %s"
+
+msgid "Users Data table"
+msgstr "Tabela de Dados do Usuário"
+
+msgid "Users Data table deleted"
+msgstr "Tabela com dados de usuários excluída"
+
+msgid "Users Data table emptied"
+msgstr "Tabela com dados de usuários esvaziada"
+
+msgid "Users Extended"
+msgstr "Usuários Extendidos"
+
+msgid "Users per page"
+msgstr "Usuários por Páginas"
+
+msgid ""
+"VERSIONS MISMATCH! This because you haven't de-activated and re-activated "
+"the plug-in after the update! This could give problems..."
+msgstr ""
+"Versões não coincidem! Isto pode ter sido causado porque não desativou e "
+"reativou o plugin depois da atualização!"
+
+msgid "Value"
+msgstr "Valor"
+
+msgid "View posts by this author"
+msgstr "Ver postagens desse autor"
+
+msgid "Website"
+msgstr "Website"
+
+msgid ""
+"With <strong>avatar</strong>: you can preload a default image putting url in "
+"<em>Value</em>; 'min,exact,max size' are in KB; <em>equal TO</em> is "
+"automatically set to 512 pixels"
+msgstr ""
+"<strong>avatar</strong>: <strong>picture</strong>: Carrega uma imagem padrão "
+"informando sua URL em <em>Valor</em>. Itens <em>Caracteres Mín., Caracteres "
+"Exatos, Caracteres Máx.</em>  se referem a tamanho em KB. Item <em>Deve ser "
+"Igual a:</em>  é automaticamente definido em 512 pixels"
+
+msgid ""
+"With <strong>drop-down</strong>: you have to add all options into label for "
+"example: label/item1,item2,item3"
+msgstr ""
+"<strong>drop-down</strong>: Lista de opções. É necessário informar todos os "
+"rótulos. Ex. de sintaxe: Gênero/Masculino,Feminino"
+
+msgid ""
+"With <strong>file</strong>: you can preload a default file putting url in "
+"<em>Value</em>; 'min,exact,max size' are in KB; under <em>equal TO</em> can "
+"be specified allowed extensions separated by comma, example: zip,pdf,doc"
+msgstr ""
+"<strong>file</strong>: Permite carregar um arquivo informando sua URL em "
+"<em>Valor</em>. Itens <em>Caracteres Mín., Caracteres Exatos, Caracteres Máx."
+"</em>  se referem a tamanho em KB. Item <em>Deve ser Igual a:</em>  se "
+"refere à extensões de arquivo permitidas, separadas por vírgulas. Ex. de "
+"sintaxe: zip, pdf, doc"
+
+msgid ""
+"With <strong>picture-url</strong>: you can preload a default image putting "
+"url in <em>Value</em>; <em>equal TO</em> means max width pixel size (height "
+"will be proportional)"
+msgstr ""
+"<strong>picture-url</strong>: Carrega uma imagem padrão informando sua URL "
+"em <em>Valor</em>. Item <em>Deve ser Igual a:</em>  se refere à largura "
+"máxima da imagem, a altura será proporcional"
+
+msgid ""
+"With <strong>picture</strong>: you can preload a default image putting url "
+"in <em>Value</em>; 'min,exact,max size' are in KB; <em>equal TO</em> means "
+"max pixel size (width or height) for thumbnail"
+msgstr ""
+"<strong>picture</strong>: Carrega uma imagem padrão informando sua URL em "
+"<em>Valor</em>. Itens <em>Caracteres Mín., Caracteres Exatos, Caracteres Máx."
+"</em>  se referem a tamanho em KB. Item <em>Deve ser Igual a:</em>  se "
+"refere à dimensão (altura ou largura) da miniatura."
+
+msgid ""
+"With <strong>radio</strong> and <strong>checkbox</strong>: <em>Value</em> "
+"and <em>equal TO</em> can only be 'Yes' or 'No' that means 'selected' or "
+"'not selected'"
+msgstr ""
+"<strong>radio</strong> e <strong>checkbox: </strong><em>Valor</em> e "
+"<em>Igual A</em> pode ser 'Sim/Verdadeiro' ou 'Não/Falso' ou seja, "
+"'selecionado' ou 'não selecionado'"
+
+msgid ""
+"With <strong>registration-date</strong>: <em>equal TO</em> means date and "
+"time format"
+msgstr ""
+"<strong>registration-date</strong>: <em>Deve ser Igual a:</em> se refere a "
+"um formato de data."
+
+msgid "With checkbox type Equal TO can only be"
+msgstr "Com caixas de marcação <strong>Igual a</strong> só pode ser"
+
+msgid "With checkbox type Value can only be"
+msgstr "Com caixas de marcação <strong>Valor</strong> só pode ser"
+
+msgid "With radio type Equal TO can only be"
+msgstr "Com botões de rádio <strong>Igual a</strong> só pode ser"
+
+msgid "With radio type Value can only be"
+msgstr "Com botões de rádio <strong>valor</strong> só podeser"
+
+msgid "WordPress Fields"
+msgstr "Campos WordPress"
+
+msgid "WordPress Fields table"
+msgstr "Tabela de Campos do WordPress"
+
+msgid "WordPress Fields table deleted"
+msgstr "Tabela de campos do WordPress excluída"
+
+msgid "WordPress Fields table emptied"
+msgstr "Tabela de campos do WordPress esvaziada"
+
+msgid "WordPress hidden fields"
+msgstr "Campos WordPress"
+
+msgid "YES"
+msgstr "SIM"
+
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+msgid "You cannot give an order that misses some numbers"
+msgstr "Você não pode dar uma ordem que precisa de alguns números"
+
+msgid "Your account is now active!"
+msgstr "Sua conta agora está ativa!"
+
+msgid ""
+"Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your "
+"site using your chosen username of &#8220;%3$s&#8221;.  Please check your "
+"email inbox at %4$s for your password and login instructions.  If you do not "
+"receive an email, please check your junk or spam folder.  If you still do "
+"not receive an email within an hour, you can <a href=\"%5$s\">reset your "
+"password</a></p>."
+msgstr ""
+"Seu site em <a href=\"%1$s\">%2$s</a> Está ativo. Faça login usando seu nome "
+"de usuário e senha: &#8220;%3$s&#8221;.  Verifique a Caixa de Entrada do seu "
+"e-mail às %4$s para senha e intruções. Se não receber seu e-mail, veja se "
+"não está na pasta de Spams.  Se ainda não receber um e-mail em uma hora, "
+"tente <a href=\"%5$s\">redefinir sua senha</a></p>."
+
+msgid "[%s] New User Registration"
+msgstr "[%s] Registro de novo usuário"
+
+msgid ""
+"after the registration or confirmation the user will be redirected to the "
+"address where was exactly before clicking on the registration link"
+msgstr ""
+"Depois do registro ou confirmação, o usuário será redirecionado para o "
+"endereço onde estava antes de clicar no link para se registrar."
+
+msgid "all data inserted by users in all and only extra fields"
+msgstr "Todos os dados inseridos pelos usuários em todos os campos extras"
+
+msgid "changed to"
+msgstr "mudou para"
+
+msgid "couldn&#8217;t be empty."
+msgstr "não pode estar vazio."
+
+msgid "couldn&#8217;t have length different than"
+msgstr "não pode ter comprimento diferente de"
+
+msgid "couldn&#8217;t have length less than"
+msgstr "não pode ter tamanho inferior a"
+
+msgid "couldn&#8217;t have length more than"
+msgstr "não pode ter comprimento maior que"
+
+msgid "couldn&#8217;t have size different than"
+msgstr "não pode ter tamanho diferrente de"
+
+msgid "couldn&#8217;t have size less than"
+msgstr "não pode ter tamanho inferior a"
+
+msgid "couldn&#8217;t have size more than"
+msgstr "não pode ter tamanho maior que"
+
+msgid "deleted correctly"
+msgstr "excluído(s)"
+
+msgid "does not match."
+msgstr "não coincide."
+
+msgid "e-mail: %s"
+msgstr "e-mail: %s"
+
+msgid ""
+"equivalent to de-activate and activate the plug-in; no other operation will "
+"be performed"
+msgstr "Equivalente a desativar e ativar o plugin, nenhuma outra operação é feita"
+
+msgid "example: title1,title2,title3"
+msgstr "Ex.: título A, título B, Título C"
+
+msgid "hasn&#8217;t a correct email syntax."
+msgstr "não tem uma sintaxe de e-mail válida."
+
+msgid "installed is"
+msgstr "instalado é"
+
+msgid "is NOT created or webserver does NOT have permission to write on it"
+msgstr "não foi criado ou o serviço de hospedam não tem permissão de escrever nele."
+
+msgid "is created and writable"
+msgstr "foi criado e pode ser escrito"
+
+msgid "isn&#8217;t correct"
+msgstr "não está correto"
+
+msgid "no fieldset"
+msgstr "sem campo"
+
+msgid "not selected (with this type is necessary)"
+msgstr "não selecionado (necessário neste tipo de campo)"
+
+msgid "select"
+msgstr "Selecionar"
+
+msgid "select action"
+msgstr "Selecione uma ação"
+
+msgid "should be"
+msgstr "deve ser"
+
+msgid "should be an image."
+msgstr "deve ser uma imagem"
+
+msgid "should be in the range of"
+msgstr "deve ser no limite de"
+
+msgid ""
+"the email sent to the admin and to the user upon registration will have all "
+"fields"
+msgstr ""
+"O e-mail enviado ao admin e ao usuário que se registrou, mostrará todos os "
+"campos."
+
+msgid "updated correctly"
+msgstr "atualizado!"
+
+msgid "user that registers should confirm its email address via a link click"
+msgstr "Usuários que se registrarem devem confirmar seu e-mail através de link"
+
+msgid "username and email used"
+msgstr "Nome de usuário e e-mail usados"
+
+msgid "you cannot select Min or Max"
+msgstr "você não pode selecionar Mínimo ou Máximo"
